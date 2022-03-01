@@ -7,7 +7,7 @@ function execute_file () {
 		then
 			echo "EPC TRIGGERED"
 			command ./epc_format.py "$1"
-	elif [[ "$1" == *"FV_aet.csv"* ]]
+	elif [[ "$1" == *"FV_aet33.txt"* ]]
 		then
 			echo "FV_AETH TRIGGERED"
 			command ./FV_AETH.py "$1"
